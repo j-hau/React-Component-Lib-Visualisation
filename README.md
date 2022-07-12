@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+# React-Component-Lib-Visualisation
+
+This project is attempting to render the same page using different component libraries (Material UI, Material You, Ant, etc...) with the same data to compare how it looks.\
+Uses Rematch for the central storage, React-router to select the pages.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -68,4 +73,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# React-Component-Lib-Visualisation
