@@ -19,10 +19,20 @@ const LandingPage = () => {
                 edge="start"
                 color="primary"
                 aria-label="menu"
-                onClick={() => navigate("/TestPage")}
+                onClick={() => navigate("/antdesign")}
                 sx={{ mr: 2 }}
             >
-                Button
+                ant design
+            </Button>
+            <Button   
+                size="large"
+                edge="start"
+                color="primary"
+                aria-label="menu"
+                onClick={() => navigate("/materialui")}
+                sx={{ mr: 2 }}
+            >
+                material ui
             </Button>
             <body>
                 Please use the buttons at the top of the page to navigate to pages

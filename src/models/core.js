@@ -7,8 +7,12 @@ export const core = {
         { date: '10/10/2010', description: 'Rent', refNumber: uuidv4(), amount: "-£63" }, 
         { date: '11/11/2011', description: 'Phone Bill', refNumber: uuidv4(), amount: "-£14" },
         { date: '12/12/2012', description: 'Pay day', refNumber: uuidv4(), amount: "+£1500" }
-    ],
-    tempId: uuidv4(),
+        ],
+        tempId: uuidv4(),
+        links: {
+            material: "/material",
+            ant: "/ant",
+        }
     },
 
     reducers: {

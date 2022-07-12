@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import LandingPage from './LandingPage';
+import AntDesignPage from './pages/AntDesignPage';
+import MaterialUIPage from './pages/MaterialUIPage';
 import TestPage from './pages/TestPage';
 
 import {
@@ -24,7 +26,8 @@ root.render(
       <BrowserRouter>
         <Routes >
           <Route path="/" element={<LandingPage />} />
-          <Route path="TestPage" element={<TestPage />} />
+          <Route path="antdesign" element={<AntDesignPage />} />
+          <Route path="materialui" element={<MaterialUIPage />} />
         </Routes >
       </BrowserRouter>
     </React.StrictMode>
